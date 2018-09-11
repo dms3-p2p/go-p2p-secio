@@ -10,13 +10,13 @@ import (
 	"time"
 
 	proto "github.com/gogo/protobuf/proto"
-	logging "github.com/ipfs/go-log"
-	cs "github.com/libp2p/go-conn-security"
-	ci "github.com/libp2p/go-libp2p-crypto"
-	peer "github.com/libp2p/go-libp2p-peer"
-	pb "github.com/libp2p/go-libp2p-secio/pb"
-	msgio "github.com/libp2p/go-msgio"
-	mh "github.com/multiformats/go-multihash"
+	logging "github.com/dms3-fs/go-log"
+	cs "github.com/dms3-p2p/go-conn-security"
+	ci "github.com/dms3-p2p/go-p2p-crypto"
+	peer "github.com/dms3-p2p/go-p2p-peer"
+	pb "github.com/dms3-p2p/go-p2p-secio/pb"
+	msgio "github.com/dms3-p2p/go-msgio"
+	mh "github.com/dms3-mft/go-multihash"
 )
 
 var log = logging.Logger("secio")

@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	cs "github.com/libp2p/go-conn-security"
-	cst "github.com/libp2p/go-conn-security/test"
-	ci "github.com/libp2p/go-libp2p-crypto"
-	peer "github.com/libp2p/go-libp2p-peer"
+	cs "github.com/dms3-p2p/go-conn-security"
+	cst "github.com/dms3-p2p/go-conn-security/test"
+	ci "github.com/dms3-p2p/go-p2p-crypto"
+	peer "github.com/dms3-p2p/go-p2p-peer"
 )
 
 func newTestTransport(t *testing.T, typ, bits int) *Transport {

@@ -9,8 +9,8 @@ import (
 	"io"
 	"sync"
 
-	msgio "github.com/libp2p/go-msgio"
-	mpool "github.com/libp2p/go-msgio/mpool"
+	msgio "github.com/dms3-p2p/go-msgio"
+	mpool "github.com/dms3-p2p/go-msgio/mpool"
 )
 
 // ErrMACInvalid signals that a MAC verification failed

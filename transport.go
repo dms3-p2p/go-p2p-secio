@@ -1,4 +1,4 @@
-// Package secio is used to encrypt `go-libp2p-conn` connections. Connections wrapped by secio use secure sessions provided by this package to encrypt all traffic. A TLS-like handshake is used to setup the communication channel.
+// Package secio is used to encrypt `go-p2p-conn` connections. Connections wrapped by secio use secure sessions provided by this package to encrypt all traffic. A TLS-like handshake is used to setup the communication channel.
 package secio
 
 import (
@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	cs "github.com/libp2p/go-conn-security"
-	ci "github.com/libp2p/go-libp2p-crypto"
-	peer "github.com/libp2p/go-libp2p-peer"
+	cs "github.com/dms3-p2p/go-conn-security"
+	ci "github.com/dms3-p2p/go-p2p-crypto"
+	peer "github.com/dms3-p2p/go-p2p-peer"
 )
 
 // ID is secio's protocol ID (used when negotiating with multistream)
